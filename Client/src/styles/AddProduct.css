@@ -1,0 +1,86 @@
+.form-container {
+  font-family: Arial, sans-serif;
+ 
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9); /* Transparent white background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Limit width for better readability */
+  margin-top: 3%;
+  margin-left: 35%;
+  margin-bottom: 3%;
+}
+.form-container-full{
+  background-image: url('https://images.hdqwalls.com/download/pogea-racing-666s-2020-bg-1920x1080.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+}
+.fullpage2{
+  background-image: url('https://images.hdqwalls.com/download/pogea-racing-666s-2020-bg-1920x1080.jpg');
+  background-size: cover;
+}
+.navbar2{
+  background-color: rgb(99, 99, 94);
+  overflow: hidden;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.form-title {
+  text-align: center;
+  /* text-shadow: 2px 2px 5px rgb(0, 0, 0); */
+  color: #000000;
+  margin-bottom:20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+.form-group + .form-group {
+  margin-top: 1em;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: .5em;
+  font-weight: bold;
+  font-size: 20px;
+  color: #030a10;
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.form-input {
+  border: 1px solid #CCCCCC;
+  font: 1em sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  padding: .5em;
+  color: #ffffff;
+}
+
+.form-input:focus {
+  border-color: #f8eaea;
+}
+
+.form-button {
+  padding: 0.7em;
+  margin-left: 43%;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: .3em;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}

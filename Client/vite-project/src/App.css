@@ -1,0 +1,24 @@
+
+header {
+  display: flex;
+  border: 1px solid #aaa;
+  padding: 10px;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  justify-content: space-between;
+}
+.car-form-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9); /* Transparent white background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Limit width for better readability */
+  margin-top: 3%;
+  margin-left: 35%;
+  margin-bottom: 3%;
+}

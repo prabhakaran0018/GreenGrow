@@ -1,0 +1,27 @@
+.cart-container{
+
+    display: flex;
+ border: 1px solid #aaa;
+ padding: 50px;
+ margin-left: 40px;
+ width: 70%;
+ margin-bottom: 20px;
+
+ 
+}
+.cart-img{
+ width: 100px;
+ height: 100px;
+
+}
+.card-full{
+ display: flex;
+ justify-content: space-evenly;
+
+
+}
+.checkout-card{
+ align-content: center;
+ padding: 10px;
+
+}
